@@ -21,3 +21,6 @@ __pycache__/
 
 # Emacs
 *~
+*.csv
+*.csv
+*.tmp
