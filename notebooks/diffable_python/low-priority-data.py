@@ -71,4 +71,7 @@ chunks = [lp_measures_df[i*chunk_size:(i+1)*chunk_size] for i in range(num_chunk
 for i, chunk in enumerate(chunks):
     chunk.to_csv(
     os.path.join("..", "data",f'lp_measures_df_{i}.zip'),
-    compression={'method': 'gzip', 'archive_name': 'lp_measures_df.csv'})
+    compression={'method': 'zip', 'archive_name': 'lp_measures_df.csv'})
+# -
+
+
